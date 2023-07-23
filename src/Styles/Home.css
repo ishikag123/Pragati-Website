@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap");
+
+.home {
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.items {
+  min-height: 10rem;
+  min-width: 20rem;
+  padding: 30px;
+}
+.items img {
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+  pointer-events: none;
+  box-shadow: rgba(23, 1, 1, 0.495) 0px 20px 50px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.inner-carousel {
+  display: flex;
+}
+
+.carousel {
+  background-color: rgba(234, 214, 214, 0.169);
+  cursor: grab;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  overflow-y: hidden;
+  margin: 1.5rem;
+  border-radius: 1rem;
+}
+.carousel::-webkit-scrollbar {
+  display: none;
+  scroll-behavior: smooth;
+}
+.slider-contents {
+  width: 100%;
+}
+
+.model {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(63, 55, 55, 0.671);
+  transition: opacity 0.4s ease, visibility 0.4s ease;
+  visibility: hidden;
+  opacity: 0;
+  transform: scale(0);
+  overflow: hidden;
+  z-index: 999;
+}
+.model.open {
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1);
+}
+.model img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+  display: block;
+  line-height: 0;
+  box-sizing: border-box;
+  padding: 20px 0 20px;
+  margin: 0 auto;
+}
+.model.open button {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 2rem;
+  height: 2rem;
+  padding: 5px;
+  background-color: black;
+  color: rgb(158, 4, 4);
+  font-weight: 900;
+}
+.model.open button:hover {
+  background-color: rgb(155, 137, 137);
+  color: rgb(49, 1, 1);
+  cursor: pointer;
+}
+.intro h1 {
+  text-align: left;
+  border-bottom-style: solid;
+}
+.intro p {
+  text-align: left;
+  font-size: large;
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: large;
+  background-color: rgba(234, 214, 214, 0.169);
+  padding: 2rem 1.5rem;
+  margin: 1.5rem;
+}
+.intro a {
+  text-decoration: none;
+  color: rgb(248, 248, 217);
+}
+.intro a:hover {
+  color: rgb(159, 5, 5);
+}
+@media (max-width: 480px) {
+  .items {
+    min-height: 7rem;
+    min-width: 10rem;
+    padding: 20px 15px;
+  }
+  .items img {
+    border-radius: 1.5rem;
+  }
+  .intro p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 300px) {
+  .intro p {
+    font-size: 14px;
+  }
+  .intro h1 {
+    font-size: 28px;
+  }
+}

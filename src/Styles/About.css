@@ -1,0 +1,28 @@
+.about h1 {
+  /* font-size: 50px;
+  text-shadow: 2px 2px 2px rgb(109, 4, 4);
+  color: rgb(248, 248, 217); */
+  text-align: left;
+  border-bottom-style: solid;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: large;
+  background-color: rgba(234, 214, 214, 0.169);
+  /* height: 100%; */
+
+  /* width: 100%; */
+  padding: 2rem 1.5rem;
+  margin: 1.5rem;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@media (max-width: 480px) {
+  .about {
+    font-size: 16px;
+  }
+}

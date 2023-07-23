@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "sandi_poster",
+    "url": "/Images/Sandipani/sandi_poster.jpg"
+  },
+  {
+    "id": 2,
+    "name": "sandi1",
+    "url": "/Images/Sandipani/sandi1.jpg"
+  },
+  {
+    "id": 3,
+    "name": "sandi2",
+    "url": "/Images/Sandipani/sandi2.jpg"
+  },
+  {
+    "id": 4,
+    "name": "sandi3",
+    "url": "/Images/Sandipani/sandi3.jpg"
+  },
+  {
+    "id": 5,
+    "name": "sandi4",
+    "url": "/Images/Sandipani/sandi4.jpg"
+  },
+  {
+    "id": 6,
+    "name": "sandi5",
+    "url": "/Images/Sandipani/sandi5.jpg"
+  },
+  {
+    "id": 7,
+    "name": "sandi6",
+    "url": "/Images/Sandipani/sandi6.jpg"
+  }
+]

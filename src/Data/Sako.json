@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "sako_poster",
+    "url": "/Images/Sako/sako_poster.jpg"
+  },
+  {
+    "id": 2,
+    "name": "sako1",
+    "url": "/Images/Sako/sako1.jpg"
+  },
+  {
+    "id": 3,
+    "name": "sako2",
+    "url": "/Images/Sako/sako2.jpg"
+  },
+  {
+    "id": 4,
+    "name": "sako3",
+    "url": "/Images/Sako/sako3.jpg"
+  },
+  {
+    "id": 5,
+    "name": "sako6",
+    "url": "/Images/Sako/sako6.jpg"
+  },
+  {
+    "id": 6,
+    "name": "sako4",
+    "url": "/Images/Sako/sako4.jpg"
+  },
+  {
+    "id": 7,
+    "name": "sako5",
+    "url": "/Images/Sako/sako5.jpg"
+  }
+]

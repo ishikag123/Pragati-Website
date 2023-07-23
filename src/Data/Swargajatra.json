@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "poster",
+    "url": "/Images/swargayatra/swargya yatra.jpg"
+  },
+  {
+    "id": 2,
+    "name": "srg1",
+    "url": "/Images/swargayatra/srg1.jpg"
+  },
+  {
+    "id": 3,
+    "name": "srg2",
+    "url": "/Images/swargayatra/srg2.jpg"
+  },
+  {
+    "id": 4,
+    "name": "srg3",
+    "url": "/Images/swargayatra/srg3.jpg"
+  },
+  {
+    "id": 5,
+    "name": "srg6",
+    "url": "/Images/swargayatra/srg6.jpg"
+  },
+  {
+    "id": 6,
+    "name": "srg4",
+    "url": "/Images/swargayatra/srg4.jpg"
+  },
+  {
+    "id": 7,
+    "name": "srg5",
+    "url": "/Images/swargayatra/srg5.jpg"
+  },
+  {
+    "id": 8,
+    "name": "srg7",
+    "url": "/Images/swargayatra/srg7.jpg"
+  },
+  {
+    "id": 9,
+    "name": "srg8",
+    "url": "/Images/swargayatra/srg8.jpg"
+  }
+]
